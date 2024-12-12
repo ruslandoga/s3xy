@@ -1,18 +1,12 @@
 defmodule S3xy do
   @moduledoc """
-  Documentation for `S3xy`.
+  TODO
   """
 
-  @doc """
-  Hello world.
+  use GenServer
 
-  ## Examples
-
-      iex> S3xy.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  @spec http(keyword) :: GenServer.on_start()
+  def http(config) do
+    GenServer.start_link(__MODULE__, config)
   end
 end

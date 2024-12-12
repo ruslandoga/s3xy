@@ -1,0 +1,6 @@
+%{
+  "elixir_make": {:hex, :elixir_make, "0.9.0", "6484b3cd8c0cee58f09f05ecaf1a140a8c97670671a6a0e7ab4dc326c3109726", [:mix], [], "hexpm", "db23d4fd8b757462ad02f8aa73431a426fe6671c80b200d9710caf3d1dd0ffdb"},
+  "picohttpparser": {:git, "https://github.com/ruslandoga/picohttpparser.git", "ae1a68c1e66e3662c2740c72f3516feacedbd31c", []},
+  "s3": {:git, "https://github.com/ruslandoga/s3.git", "60e48e36f4584a22b05eba1816650a106e062b47", []},
+  "stream_data": {:hex, :stream_data, "1.1.2", "05499eaec0443349ff877aaabc6e194e82bda6799b9ce6aaa1aadac15a9fdb4d", [:mix], [], "hexpm", "129558d2c77cbc1eb2f4747acbbea79e181a5da51108457000020a906813a1a9"},
+}

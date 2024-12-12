@@ -28,3 +28,8 @@ $ duckdb
 ```sql
 insert into ()
 ```
+
+After that:
+- PREWHERE (needs index)
+- otel sink
+- schemaless inserts (needs shredding)

@@ -1,8 +1,4 @@
 defmodule S3xyTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   doctest S3xy
-
-  test "greets the world" do
-    assert S3xy.hello() == :world
-  end
 end
